@@ -5,7 +5,6 @@ import json
 import re
 import pandas
 import os
-import sqlite3
 
 news_total=[]
 def getNewsDetail(newsUrl):
