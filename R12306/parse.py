@@ -28,6 +28,8 @@ def parseTrainMessage(res):
         tran=OrderedDict()
         trans = i.split('|')
         tran['车次'] = trans[3]
+        tran['起始站']=params['fromStation']
+        tran['终点站']=params['toStation']
         tran['出发时间'] = trans[8]
         tran['到达时间'] = trans[9]
         tran['历时'] = trans[10]
@@ -47,7 +49,7 @@ def parseTrainMessage(res):
 def printMessage(List):
     print('=========================================================================================================')
     for i in List:
-        trainMessage='车次:%s\t起始站:「%s」\t终点站:「%s」\t出发时间:%s\t到达时间:%s\t历时:%s'%(i['车次'],params['fromStation'],params['toStation'],i['出发时间'],i['到达时间'],i['历时'])
+        trainMessage='车次:%s\t起始站:「%s」\t终点站:「%s」\t出发时间:%s\t到达时间:%s\t历时:%s'%(i['车次'],i['起始站'],i['终点站'],i['出发时间'],i['到达时间'],i['历时'])
         seatMessage='商务座/特等座:「%s」 一等座:「%s」 二等座:「%s」 软卧:「%s」 动卧:「%s」 硬卧:「%s」 软座:「%s」 硬座:「%s」 无座:「%s」'%(i['商务座特等座'],i['一等座'],i['二等座'],i['软卧'],i['动卧'],i['硬卧'],i['软座'],i['硬座'],i['无座'])
         print(trainMessage)
         print(seatMessage)

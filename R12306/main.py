@@ -43,9 +43,9 @@ if __name__=='__main__':
         date：查询日期(格式'20XX-XX-XX'或者now)
         now：今天的日期
     '''
-    fromStation='常德'
+    fromStation='上海'
     toStation='长沙'
-    date='2018-04-10'
+    date='2018-04-07'
 
     yep=main()
     if yep:
