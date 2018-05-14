@@ -1,11 +1,14 @@
 from F_zhihu.Parser import Json
 from F_zhihu.Https import Http
 from F_zhihu import Setting
-import getProxy,random
+import getProxy,random,os
 
 def Spider(initID):
-    allFollowID(initID)#爬取所有关注者及子孙关注者ID
-    generateDoc()#生成文档
+    try:
+        f=open(os.getcwd(),'r')#存即合理
+    except Exception as e:
+        allFollowID(initID)#爬取所有关注者及子孙关注者ID
+        generateDoc()#生成文档
 
 def allFollowID(initID):
     newID.add(initID)
