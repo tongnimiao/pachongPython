@@ -1,0 +1,5 @@
+2018-05-14 16:02:14 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-14 16:07:47 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-14 16:11:13 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-14 16:13:06 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-14 16:30:17 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)

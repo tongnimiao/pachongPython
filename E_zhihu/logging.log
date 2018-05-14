@@ -1,0 +1,35 @@
+2018-04-20 08:31:18 Process4495:140219172779776 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-20 12:35:09 Process9033:139951064946432 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-20 12:36:14 Process9082:140441601214208 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-20 12:38:21 Process9109:140523799631616 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-20 12:49:37 Process9571:139691119191808 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-20 16:22:38 Process4692:140014723221248 getEXCEPT:maximum recursion depth exceeded
+2018-04-23 15:04:43 Process21431:140473320113920 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:05:19 Process21453:140605435639552 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:05:26 Process21453:140605435639552 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:05:33 Process21453:140605435639552 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:05:40 Process21453:140605435639552 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:07:24 Process21495:139877863577344 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:08:38 Process21530:140428842735360 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:08:45 Process21530:140428842735360 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:13:10 Process21636:140286700156672 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:15:08 Process21675:140486572562176 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:15:37 Process21705:139849705375488 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:17:21 Process21798:140659083515648 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:29:10 Process22148:139779109000960 getEXCEPT:404 Client Error: Not Found for url: https://www.zhihu.com/api/v4/members/j?include=locations,educations
+2018-04-23 15:29:17 Process22148:139779109000960 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:29:24 Process22148:139779109000960 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:39:01 Process22434:140648831760128 getEXCEPT:404 Client Error: Not Found for url: https://www.zhihu.com/api/v4/members/['a-hang-xian-sheng-61',%20'duan-yanlin',%20'mfcndw',%20'sun-yi-ren-97',%20'todd-sandness',%20'mao-ta',%20'su-zhicheng',%20'DioXDio',%20'zhang-gong-72-95',%20'justinfu',%20'qing-hai-chao-64',%20'simpsonz-49',%20'935-82',%20'tu-hao-diao-si',%20'3000',%20'nian-gao-ma-ma-88',%20'xiangfajiqiren',%20'wen-xing-78',%20'xu-shi-meng-75',%20'ji-he-61-7']?include=locations,educations
+2018-04-23 15:39:08 Process22434:140648831760128 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:40:47 Process22460:140265955878656 getEXCEPT:404 Client Error: Not Found for url: https://www.zhihu.com/api/v4/members/['qian-feng-bian-cheng-bu-luo',%20'liu-bo-chao-18',%20'ren-min-wen-xue-chu-ban-she',%20'liu-liu-34-79',%20'wu-meng-qi-40-54',%20'yuanshuai1020',%20'shang-ai-lan',%20'minghua0421',%20'ceciliacat',%20'li-jing-20-69',%20'ma-feng-wo-zi-you-xing',%20'diqiuzhishiju',%20'maimu',%20'gong-qing-tuan-zhong-yang-67',%20'zhu-xuan-86',%20'wang-ni-ma-94',%20'yangdiyadid',%20'yeyi',%20'zhi-hu-dian-zi-shu',%20'xia-chu-fang']?include=locations,educations
+2018-04-23 15:40:54 Process22460:140265955878656 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:41:01 Process22460:140265955878656 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:41:08 Process22460:140265955878656 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 15:41:15 Process22460:140265955878656 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:29:58 Process23144:140295235962624 getEXCEPT:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-04-23 16:30:06 Process23144:140295235962624 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:30:13 Process23144:140295235962624 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:30:20 Process23144:140295235962624 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:30:28 Process23144:140295235962624 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:30:35 Process23144:140295235962624 getEXCEPT:'str' object has no attribute 'get'
+2018-04-23 16:30:35 Process23144:140295235962624 getTIMEOUT:%
