@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50a7d75c-8e4b-4675-a868-5d69ce3f256f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Z_getProxy/getProxy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Z_getProxy/setting.py" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/pythontest.iml" afterPath="$PROJECT_DIR$/.idea/pythontest.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/D_doubanTop/main.py" afterPath="$PROJECT_DIR$/D_doubanTop/main.py" />
+      <change beforePath="$PROJECT_DIR$/E_zhihu/https.py" afterPath="$PROJECT_DIR$/E_zhihu/https.py" />
+      <change beforePath="$PROJECT_DIR$/E_zhihu/main!.py" afterPath="$PROJECT_DIR$/E_zhihu/main!.py" />
+      <change beforePath="$PROJECT_DIR$/E_zhihu/main.py" afterPath="$PROJECT_DIR$/E_zhihu/main.py" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/Https.py" afterPath="$PROJECT_DIR$/F_zhihu/Https.py" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/Main.py" afterPath="$PROJECT_DIR$/F_zhihu/Main.py" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/Setting.py" afterPath="$PROJECT_DIR$/F_zhihu/Setting.py" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/logging.log" afterPath="$PROJECT_DIR$/F_zhihu/logging.log" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/testZhihu.py" afterPath="$PROJECT_DIR$/F_zhihu/testZhihu.py" />
+      <change beforePath="$PROJECT_DIR$/getProxy.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,55 +26,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pachongPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526461879351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
     <SUITE FILE_PATH="coverage/pachong$parse.coverage" NAME="parse Coverage Results" MODIFIED="1523347889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
-    <SUITE FILE_PATH="coverage/pachong$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1524204284887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_zhihu" />
-    <SUITE FILE_PATH="coverage/pachong$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1526269396559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
-    <SUITE FILE_PATH="coverage/pachong$https.coverage" NAME="https Coverage Results" MODIFIED="1522800229584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12306" />
-    <SUITE FILE_PATH="coverage/pachong$testZhihu.coverage" NAME="testZhihu Coverage Results" MODIFIED="1526287538554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
-    <SUITE FILE_PATH="coverage/pachong$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526279717346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pachong$23131231.coverage" NAME="23131231 Coverage Results" MODIFIED="1522661290336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagouwang" />
-    <SUITE FILE_PATH="coverage/pachong$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1524528735782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
-    <SUITE FILE_PATH="coverage/pachong$testIP.coverage" NAME="testIP Coverage Results" MODIFIED="1523404988392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pachong$lagou.coverage" NAME="lagou Coverage Results" MODIFIED="1522636951693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pachong$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1526269331363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
-    <SUITE FILE_PATH="coverage/pachong$testIp.coverage" NAME="testIp Coverage Results" MODIFIED="1524020539856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
-    <SUITE FILE_PATH="coverage/pachong$requestsSinaNews.coverage" NAME="requestsSinaNews Coverage Results" MODIFIED="1525405584469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
-    <SUITE FILE_PATH="coverage/pythontest$test.coverage" NAME="test Coverage Results" MODIFIED="1521709373267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pachong$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1524035906888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
-    <SUITE FILE_PATH="coverage/pachong$URLManager.coverage" NAME="URLManager Coverage Results" MODIFIED="1526255545750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
-    <SUITE FILE_PATH="coverage/pachong$1.coverage" NAME="1 Coverage Results" MODIFIED="1523348936649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
-    <SUITE FILE_PATH="coverage/pachong$test.coverage" NAME="test Coverage Results" MODIFIED="1524021532541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
-    <SUITE FILE_PATH="coverage/pachong$main_.coverage" NAME="main! Coverage Results" MODIFIED="1524532060714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_zhihu" />
-    <SUITE FILE_PATH="coverage/pachong$requestsIp.coverage" NAME="requestsIp Coverage Results" MODIFIED="1524019793595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
-    <SUITE FILE_PATH="coverage/pythontest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1522309001570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pachong$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1522650314168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagouwang" />
-    <SUITE FILE_PATH="coverage/pachong$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1524096673503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_doubanTop" />
-    <SUITE FILE_PATH="coverage/pachongPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526310855871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
-    <SUITE FILE_PATH="coverage/pachong$IPpool.coverage" NAME="IPpool Coverage Results" MODIFIED="1523321087348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
-    <SUITE FILE_PATH="coverage/pachong$Testtwo.coverage" NAME="Testtwo Coverage Results" MODIFIED="1526255338920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
     <SUITE FILE_PATH="coverage/pachong$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526286705616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
     <SUITE FILE_PATH="coverage/pachong$main.coverage" NAME="main Coverage Results" MODIFIED="1524020565865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
+    <SUITE FILE_PATH="coverage/pachongPython$requestsSinaNews.coverage" NAME="requestsSinaNews Coverage Results" MODIFIED="1526345768302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachong$testZhihu.coverage" NAME="testZhihu Coverage Results" MODIFIED="1526287538554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
+    <SUITE FILE_PATH="coverage/pachong$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1524035906888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
+    <SUITE FILE_PATH="coverage/pachong$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1526269396559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
+    <SUITE FILE_PATH="coverage/pachong$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1524096673503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D_doubanTop" />
+    <SUITE FILE_PATH="coverage/pachong$Testtwo.coverage" NAME="Testtwo Coverage Results" MODIFIED="1526255338920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachong$requestsIp.coverage" NAME="requestsIp Coverage Results" MODIFIED="1524019793595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
+    <SUITE FILE_PATH="coverage/pachong$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526279717346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongPython$testZhihu.coverage" NAME="testZhihu Coverage Results" MODIFIED="1526456955898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
+    <SUITE FILE_PATH="coverage/pachong$test.coverage" NAME="test Coverage Results" MODIFIED="1524021532541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
+    <SUITE FILE_PATH="coverage/pachong$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1526269331363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachongPython$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526456988004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachong$23131231.coverage" NAME="23131231 Coverage Results" MODIFIED="1522661290336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagouwang" />
+    <SUITE FILE_PATH="coverage/pachong$IPpool.coverage" NAME="IPpool Coverage Results" MODIFIED="1523321087348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
     <SUITE FILE_PATH="coverage/pachong$requestsIP.coverage" NAME="requestsIP Coverage Results" MODIFIED="1523320727727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythontest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1522309001570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachong$1.coverage" NAME="1 Coverage Results" MODIFIED="1523348936649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
+    <SUITE FILE_PATH="coverage/pachong$testIP.coverage" NAME="testIP Coverage Results" MODIFIED="1523404988392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachong$main_.coverage" NAME="main! Coverage Results" MODIFIED="1524532060714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_zhihu" />
+    <SUITE FILE_PATH="coverage/pythontest$test.coverage" NAME="test Coverage Results" MODIFIED="1521709373267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachong$requestsSinaNews.coverage" NAME="requestsSinaNews Coverage Results" MODIFIED="1525405584469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachong$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1522650314168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagouwang" />
+    <SUITE FILE_PATH="coverage/pachong$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1524528735782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachong$URLManager.coverage" NAME="URLManager Coverage Results" MODIFIED="1526255545750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+    <SUITE FILE_PATH="coverage/pachong$https.coverage" NAME="https Coverage Results" MODIFIED="1522800229584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12306" />
+    <SUITE FILE_PATH="coverage/pachong$testIp.coverage" NAME="testIp Coverage Results" MODIFIED="1524020539856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
+    <SUITE FILE_PATH="coverage/pachong$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1524204284887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/E_zhihu" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/Main.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="logging.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/F_zhihu/logging.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getProxy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getProxy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="173">
+              <caret line="199" column="51" lean-forward="false" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -72,40 +74,8 @@
       <file leaf-file-name="Https.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/Parser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/Setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testZhihu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/testZhihu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -138,6 +108,11 @@
       <find>cont_m</find>
       <find>{'排名：': '1</find>
       <find>ka-li</find>
+      <find>oldID</find>
+      <find>getProxy</find>
+      <find>None</find>
+      <find>pro</find>
+      <find>item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,11 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/12306/requests.py" />
-        <option value="$PROJECT_DIR$/12306/https.py" />
-        <option value="$PROJECT_DIR$/12306/setting.py" />
-        <option value="$PROJECT_DIR$/12306/main.py" />
-        <option value="$PROJECT_DIR$/R12306/setting.py" />
         <option value="$PROJECT_DIR$/R12306/parse.py" />
         <option value="$PROJECT_DIR$/R12306/main.py" />
         <option value="$PROJECT_DIR$/testIP.py" />
@@ -181,22 +151,27 @@
         <option value="$PROJECT_DIR$/E_zhihu/parse.py" />
         <option value="$PROJECT_DIR$/E_zhihu/https.py" />
         <option value="$PROJECT_DIR$/E_zhihu/main!.py" />
-        <option value="$PROJECT_DIR$/TEST/requestsSinaNews.py" />
         <option value="$PROJECT_DIR$/TEST/test" />
-        <option value="$PROJECT_DIR$/TEST/TEST.py" />
         <option value="$PROJECT_DIR$/TEST/TEST2.py" />
         <option value="$PROJECT_DIR$/TEST/URLManager.py" />
         <option value="$PROJECT_DIR$/TEST/Testtwo.py" />
         <option value="$PROJECT_DIR$/TEST/HtmlDownloader.py" />
         <option value="$PROJECT_DIR$/TEST/HtmlParser.py" />
         <option value="$PROJECT_DIR$/F_zhihu/test.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/Https.py" />
-        <option value="$PROJECT_DIR$/getProxy.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/Setting.py" />
         <option value="$PROJECT_DIR$/F_zhihu/Parser.py" />
         <option value="$PROJECT_DIR$/F_zhihu/totalID" />
+        <option value="$PROJECT_DIR$/A_sinaNews/requestsSinaNews.py" />
+        <option value="$PROJECT_DIR$/TEST/requestsSinaNews.py" />
+        <option value="$PROJECT_DIR$/TEST/TEST.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/Setting.py" />
+        <option value="$PROJECT_DIR$/getProxy.py" />
+        <option value="$PROJECT_DIR$/Z_getProxy/setting.py" />
+        <option value="$PROJECT_DIR$/Z_getProxy/main.py" />
+        <option value="$PROJECT_DIR$/Z_getProxy/getProxy.py" />
         <option value="$PROJECT_DIR$/F_zhihu/testZhihu.py" />
         <option value="$PROJECT_DIR$/F_zhihu/Main.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/Https.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/logging.log" />
       </list>
     </option>
   </component>
@@ -259,7 +234,27 @@
             <path>
               <item name="pachongPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="pachongPython" type="462c0819:PsiDirectoryNode" />
+              <item name="A_sinaNews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongPython" type="462c0819:PsiDirectoryNode" />
+              <item name="E_zhihu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongPython" type="462c0819:PsiDirectoryNode" />
               <item name="F_zhihu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongPython" type="462c0819:PsiDirectoryNode" />
+              <item name="TEST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pachongPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pachongPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Z_getProxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,6 +276,7 @@
       <recent name="$PROJECT_DIR$/TEST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Z_getProxy" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lagouwang" />
     </key>
@@ -312,25 +308,6 @@
       <module name="pythontest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/F_zhihu/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="URLManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TEST" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythontest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST/URLManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,7 +345,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythontest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getProxy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Z_getProxy/getProxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="requestsSinaNews" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TEST" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythontest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST/requestsSinaNews.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -414,19 +410,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python.URLManager" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testZhihu" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="5" class="java.lang.String" itemvalue="Python.getProxy" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testZhihu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.getProxy" />
+      <item index="5" class="java.lang.String" itemvalue="Python.requestsSinaNews" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testZhihu" />
-        <item index="2" class="java.lang.String" itemvalue="Python.getProxy" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.URLManager" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getProxy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testZhihu" />
+        <item index="3" class="java.lang.String" itemvalue="Python.requestsSinaNews" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -447,21 +443,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="65" y="-4" width="1321" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34834835" sideWeight="0.50265354" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4259635" sideWeight="0.49734646" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20627803" sideWeight="0.5056861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.406577" sideWeight="0.49431387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24635416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19560273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297953" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -479,14 +476,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/F_zhihu/Main.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -505,9 +495,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lagouwang/setting.py" />
-    <entry file="file://$PROJECT_DIR$/lagouwang/main.py" />
-    <entry file="file://$PROJECT_DIR$/lagouwang/https.py" />
     <entry file="file://$PROJECT_DIR$/lagouwang/parse.py" />
     <entry file="file://$PROJECT_DIR$/R12306/main.py" />
     <entry file="file://$PROJECT_DIR$/R12306/parse.py" />
@@ -546,30 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/threading.py" />
     <entry file="file://$PROJECT_DIR$/TEST/result.txt" />
-    <entry file="file://$PROJECT_DIR$/A_sinaNews/requestsSinaNews.py" />
     <entry file="file://$PROJECT_DIR$/TEST/ot.json" />
-    <entry file="file://$PROJECT_DIR$/TEST/requestsSinaNews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TEST/TEST2.py" />
-    <entry file="file://$PROJECT_DIR$/TEST/TEST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TEST/Testtwo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -607,20 +572,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/TEST.py" />
-    <entry file="file://$PROJECT_DIR$/E_zhihu/logging.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="94" lean-forward="false" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E_zhihu/https.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/Setting" />
     <entry file="file://$PROJECT_DIR$/E_zhihu/parse.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -629,85 +580,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E_zhihu/main!.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/A_sinaNews/requestsSinaNews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="612">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E_zhihu/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/logging.log">
+    <entry file="file://$PROJECT_DIR$/F_zhihu/totalID">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/totalID" />
-    <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
+    <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/multiprocessing/queues.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1783342432/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="241" column="4" lean-forward="false" selection-start-line="241" selection-start-column="4" selection-end-line="241" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/TEST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST/requestsSinaNews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/Setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/main!.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/testZhihu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="211">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <marker date="1526456955862" expanded="true" signature="194:215" ph="select * fro... TEACHER" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Z_getProxy/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="61" column="84" lean-forward="false" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getProxy.py">
+    <entry file="file://$PROJECT_DIR$/Z_getProxy/getProxy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/https.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="41" column="77" lean-forward="false" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/logging.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="94" lean-forward="false" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="-18">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/logging.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="199" column="51" lean-forward="false" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>

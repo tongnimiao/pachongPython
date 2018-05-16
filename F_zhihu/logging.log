@@ -1,5 +1,204 @@
-2018-05-14 16:02:14 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
-2018-05-14 16:07:47 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
-2018-05-14 16:11:13 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
-2018-05-14 16:13:06 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
-2018-05-14 16:30:17 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 15:52:31 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 15:52:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:52:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:52:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:52:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:52:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:52:31 getTimeout:https://www.zhihu.com/api/v4/members/bruce-sh/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=180&limit=20
+2018-05-16 15:54:04 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 15:54:04 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:54:04 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:54:04 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:54:04 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:54:04 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:54:04 getTimeout:https://www.zhihu.com/api/v4/members/changjie78/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=0&limit=20
+2018-05-16 15:56:52 getExcept:500 Server Error: Internal Server Error for url: https://www.zhihu.com/api/v4/members/yangchengbo/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=320&limit=20
+2018-05-16 15:56:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:56:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:56:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:56:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:56:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 15:56:52 getTimeout:https://www.zhihu.com/api/v4/members/yangchengbo/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=320&limit=20
+2018-05-16 16:42:31 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:42:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:42:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:42:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:42:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:42:31 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:42:31 getTimeout:https://www.zhihu.com/api/v4/members/ku-shou-84/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=20&limit=20
+2018-05-16 16:46:47 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:46:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:46:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:46:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:46:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:46:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:46:47 getTimeout:https://www.zhihu.com/api/v4/members/ding-ding-15-26/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=1000&limit=20
+2018-05-16 16:47:46 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:47:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:47:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:47:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:47:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:47:47 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:47:47 getTimeout:https://www.zhihu.com/api/v4/members/xiao-tie-jiang-36-77/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=200&limit=20
+2018-05-16 16:51:20 getExcept:500 Server Error: Internal Server Error for url: https://www.zhihu.com/api/v4/members/li-xing-chen-13/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=1780&limit=20
+2018-05-16 16:51:20 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:20 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:20 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:20 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:20 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:20 getTimeout:https://www.zhihu.com/api/v4/members/li-xing-chen-13/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=1780&limit=20
+2018-05-16 16:51:43 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:51:44 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:44 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:44 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:44 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:44 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:51:44 getTimeout:https://www.zhihu.com/api/v4/members/xu-zhuo-17/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=40&limit=20
+2018-05-16 16:57:14 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:14 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:14 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:14 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:14 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:14 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:14 getTimeout:https://www.zhihu.com/api/v4/members/ping-xin-11-18/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=200&limit=20
+2018-05-16 16:57:15 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:15 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:15 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:15 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:15 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:15 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:15 getTimeout:https://www.zhihu.com/api/v4/members/tudou-cat/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=1340&limit=20
+2018-05-16 16:57:16 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:16 getTimeout:https://www.zhihu.com/api/v4/members/laoben/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=20&limit=20
+2018-05-16 16:57:16 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getTimeout:https://www.zhihu.com/api/v4/members/xu-jiu-12-54/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=700&limit=20
+2018-05-16 16:57:17 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:17 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getTimeout:https://www.zhihu.com/api/v4/members/li-cheng-zi-12/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=200&limit=20
+2018-05-16 16:57:17 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:17 getTimeout:https://www.zhihu.com/api/v4/members/garfee/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=180&limit=20
+2018-05-16 16:57:18 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:18 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getTimeout:https://www.zhihu.com/api/v4/members/huang-shi-yu-17-82/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=3120&limit=20
+2018-05-16 16:57:18 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:18 getTimeout:https://www.zhihu.com/api/v4/members/magic-z/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=0&limit=20
+2018-05-16 16:57:19 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getTimeout:https://www.zhihu.com/api/v4/members/yun-chi/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=680&limit=20
+2018-05-16 16:57:19 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:57:19 getTimeout:https://www.zhihu.com/api/v4/members/mu-san-ge/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=200&limit=20
+2018-05-16 16:59:21 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 16:59:21 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:59:21 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:59:21 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:59:21 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:59:21 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 16:59:21 getTimeout:https://www.zhihu.com/api/v4/members/qiu-shui-20-54/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=340&limit=20
+2018-05-16 17:00:06 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:00:06 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:00:06 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:00:06 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:00:06 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:00:06 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:00:06 getTimeout:https://www.zhihu.com/api/v4/members/he-song-tao-90-93/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=340&limit=20
+2018-05-16 17:02:16 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:02:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:02:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:02:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:02:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:02:16 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:02:16 getTimeout:https://www.zhihu.com/api/v4/members/jacklee96/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=360&limit=20
+2018-05-16 17:03:24 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:03:24 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:24 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:24 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:24 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:24 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:24 getTimeout:https://www.zhihu.com/api/v4/members/hu-bi-teng/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=1760&limit=20
+2018-05-16 17:03:42 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:03:42 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:42 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:42 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:42 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:42 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:42 getTimeout:https://www.zhihu.com/api/v4/members/fan-tuan-37-56/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=20&limit=20
+2018-05-16 17:03:46 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:03:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:46 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:46 getTimeout:https://www.zhihu.com/api/v4/members/chai-jian-yi/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=60&limit=20
+2018-05-16 17:03:52 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:03:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:52 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:52 getTimeout:https://www.zhihu.com/api/v4/members/Steven-Gan/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=3200&limit=20
+2018-05-16 17:03:55 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:03:55 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:55 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:55 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:55 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:55 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:03:55 getTimeout:https://www.zhihu.com/api/v4/members/wang-zhe-83-73/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=0&limit=20
+2018-05-16 17:04:00 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:04:00 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:00 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:00 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:00 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:00 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:00 getTimeout:https://www.zhihu.com/api/v4/members/qianyao/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=20&limit=20
+2018-05-16 17:04:01 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:04:01 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:01 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:01 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:01 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:01 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:01 getTimeout:https://www.zhihu.com/api/v4/members/laufei/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=520&limit=20
+2018-05-16 17:04:03 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)
+2018-05-16 17:04:03 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:03 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:03 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:03 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:03 getExcept:'tuple' object has no attribute 'items'
+2018-05-16 17:04:03 getTimeout:https://www.zhihu.com/api/v4/members/shi-wu-44/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset=580&limit=20
+2018-05-16 17:15:57 getExcept:HTTPSConnectionPool(host='www.zhihu.com', port=443): Read timed out. (read timeout=5)

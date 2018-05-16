@@ -1,6 +1,6 @@
 from F_zhihu import Setting
-from getProxy import getProxy
-import requests,random,logging,time
+from Z_getProxy.getProxy import getProxy
+import requests,random,logging,time,redis
 logging.basicConfig(level=logging.ERROR,
                     format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -19,14 +19,14 @@ class Http(object):
         :return:
         '''
         if not headers:
-            headers={
-                'User-Agent':random.choice(Setting.UA),
-                'Cookie':random.choice(Setting.Cookies)
-            }
+            headers = {'User-Agent': random.choice(Setting.UA), 'Cookie': random.choice(Setting.Cookies)}
 
         if not proxies:
-            proxylist=getProxy(1)
-            proxies={'proxies':random.choice(proxylist)}
+            pool = redis.ConnectionPool(host='localhost', port=6379, decode_responses=True)
+            r = redis.Redis(connection_pool=pool)
+            proxy=r.srandmember('proxy')
+            proxies={'proxy':proxy}
+            print('重连的代理为%s'%proxies)
 
         try:
             res=requests.get(url,headers=headers,proxies=proxies,timeout=timeout)
@@ -35,7 +35,7 @@ class Http(object):
         except Exception as e:
             logging.error('getExcept:{}'.format(e))
             if timeoutRetry>0:
-                htmlCode=self.get(url=url,timeoutRetry=timeoutRetry-1)
+                htmlCode=self.get(url=url,timeout=5,timeoutRetry=timeoutRetry-1)
             else:
                 logging.error('getTimeout:{}'.format(url))
                 htmlCode=None

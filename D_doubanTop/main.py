@@ -1,6 +1,6 @@
 from D_doubanTop.parse import parseMovieHome,parseMusicHome,parseBookHome,parseMovie,parseMusic,parseBook,saveMessage
 from D_doubanTop.setting import headers
-from getProxy import getProxy
+from Z_getProxy.getProxy import getProxy
 import time
 
 def main(kind):

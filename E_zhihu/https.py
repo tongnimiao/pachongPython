@@ -1,4 +1,4 @@
-from getProxy import getProxy
+from Z_getProxy.getProxy import getProxy
 from E_zhihu.setting import UA
 import requests,random,logging
 

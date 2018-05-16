@@ -1,4 +1,4 @@
-from getProxy import getProxy
+from Z_getProxy.getProxy import getProxy
 from E_zhihu.setting import headers,url,followUrl
 from E_zhihu.parse import jsonParse,htmlParse
 from E_zhihu.https import Http

@@ -1,7 +1,7 @@
 from E_zhihu.setting import url,followUrl,headers
 from E_zhihu.https import Http
 from E_zhihu.parse import jsonParse,htmlParse
-from getProxy import getProxy
+from Z_getProxy.getProxy import getProxy
 import time,random,pandas
 
 

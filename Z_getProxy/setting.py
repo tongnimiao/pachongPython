@@ -1,9 +1,3 @@
-Cookies=[
-      '__DAYU_PP=6NEQzBVeevByUuMjrEzEffffffff8a15a08bae39; q_c1=9c46a0fb9939422881967decd788e462|1524453465000|1521676280000; _zap=fd45d673-aa0f-4999-ae2d-57dce5ceae92; l_cap_id="MTVhZTgwMmE2NjJmNDU3ZjliYWNmYzMyNjdiZTAzODE=|1524095802|97edbda534c1a22c5d8db4392a9179c1d21b400e"; r_cap_id="MDVjMDY3MDk0YjkwNGFhNWI2NDkwM2FiNzdlOThmN2U=|1524095802|0b58fcce4bf7e66bf1184ac9e18e0ee5bb697c93"; cap_id="YTljOWU3ZDQ2YWZjNDBlZGFiMzBkMWZkYTIzNDljZjQ=|1524095802|c914e7f3996b7dac4464d21b80c67f46ef35b4fb"; capsion_ticket="2|1:0|10:1526439889|14:capsion_ticket|44:M2UxNzFiY2IxYzUyNGI5YmI1YjExOTAwNjE2YWMyN2Q=|3c1d527a2ac78f5c41f28befcc994fff81794d3391615683178b0f60b815fb9f"; __utma=155987696.933253060.1526436255.1526436255.1526436255.1; __utmz=155987696.1526436255.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _xsrf=fc3ee978-2359-46ca-9223-cae059142a8b; __utmc=155987696; tgw_l7_route=170010e948f1b2a2d4c7f3737c85e98c; z_c0="2|1:0|10:1526439898|4:z_c0|80:MS4xbWJaS0JnQUFBQUFtQUFBQVlBSlZUZHJ0NkZzclVTb3I5eFhEa2tNSmZ0WUZXckRpdGswUEVRPT0=|6900e3a3869ff78ed386716f8a35d412e790f6127565a85feb82d6d6486cafe8"',
-]
-
-followUrl = 'https://www.zhihu.com/api/v4/members/{id}/followees?include=data[*].answer_count,articles_count,gender,follower_count,is_followed,is_following,badge[?(type=best_answerer)].topics&offset={page}&limit=20'
-
 UA = ['Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.5 Safari/534.55.3',
       'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; TencentTraveler 4.0;\
        Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1))',
