@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50a7d75c-8e4b-4675-a868-5d69ce3f256f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Z_getProxy/getProxy.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Z_getProxy/setting.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythontest.iml" afterPath="$PROJECT_DIR$/.idea/pythontest.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/D_doubanTop/main.py" afterPath="$PROJECT_DIR$/D_doubanTop/main.py" />
-      <change beforePath="$PROJECT_DIR$/E_zhihu/https.py" afterPath="$PROJECT_DIR$/E_zhihu/https.py" />
-      <change beforePath="$PROJECT_DIR$/E_zhihu/main!.py" afterPath="$PROJECT_DIR$/E_zhihu/main!.py" />
-      <change beforePath="$PROJECT_DIR$/E_zhihu/main.py" afterPath="$PROJECT_DIR$/E_zhihu/main.py" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/Https.py" afterPath="$PROJECT_DIR$/F_zhihu/Https.py" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/Main.py" afterPath="$PROJECT_DIR$/F_zhihu/Main.py" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/Parser.py" afterPath="$PROJECT_DIR$/F_zhihu/Parser.py" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/Setting.py" afterPath="$PROJECT_DIR$/F_zhihu/Setting.py" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/logging.log" afterPath="$PROJECT_DIR$/F_zhihu/logging.log" />
       <change beforePath="$PROJECT_DIR$/F_zhihu/testZhihu.py" afterPath="$PROJECT_DIR$/F_zhihu/testZhihu.py" />
-      <change beforePath="$PROJECT_DIR$/getProxy.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/F_zhihu/totalID" afterPath="$PROJECT_DIR$/F_zhihu/Spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pachongPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526461879351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
+    <SUITE FILE_PATH="coverage/pachongPython$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526624241239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
     <SUITE FILE_PATH="coverage/pachong$parse.coverage" NAME="parse Coverage Results" MODIFIED="1523347889773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
     <SUITE FILE_PATH="coverage/pachong$lagou.coverage" NAME="lagou Coverage Results" MODIFIED="1522636951693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pachong$Main.coverage" NAME="Main Coverage Results" MODIFIED="1526286705616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
@@ -39,10 +32,10 @@
     <SUITE FILE_PATH="coverage/pachong$Testtwo.coverage" NAME="Testtwo Coverage Results" MODIFIED="1526255338920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
     <SUITE FILE_PATH="coverage/pachong$requestsIp.coverage" NAME="requestsIp Coverage Results" MODIFIED="1524019793595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
     <SUITE FILE_PATH="coverage/pachong$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526279717346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pachongPython$testZhihu.coverage" NAME="testZhihu Coverage Results" MODIFIED="1526456955898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
+    <SUITE FILE_PATH="coverage/pachongPython$testZhihu.coverage" NAME="testZhihu Coverage Results" MODIFIED="1526623991836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/F_zhihu" />
     <SUITE FILE_PATH="coverage/pachong$test.coverage" NAME="test Coverage Results" MODIFIED="1524021532541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IPPool" />
     <SUITE FILE_PATH="coverage/pachong$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1526269331363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
-    <SUITE FILE_PATH="coverage/pachongPython$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526456988004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pachongPython$getProxy.coverage" NAME="getProxy Coverage Results" MODIFIED="1526623835493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pachong$23131231.coverage" NAME="23131231 Coverage Results" MODIFIED="1522661290336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagouwang" />
     <SUITE FILE_PATH="coverage/pachong$IPpool.coverage" NAME="IPpool Coverage Results" MODIFIED="1523321087348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doubanTop" />
     <SUITE FILE_PATH="coverage/pachong$requestsIP.coverage" NAME="requestsIP Coverage Results" MODIFIED="1523320727727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -61,22 +54,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logging.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/logging.log">
+      <file leaf-file-name="Spider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/F_zhihu/Spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="199" column="51" lean-forward="false" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+            <state relative-caret-position="235">
+              <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F_zhihu/Setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Https.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
+      <file leaf-file-name="Parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F_zhihu/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1526604335774" expanded="true" signature="4176:4299" ph="insert into zhihuMessage... " />
+                <marker date="1526604335774" expanded="true" signature="4482:4522" ph="insert into zhihuMessage... " />
+                <marker date="1526604335774" expanded="true" signature="4482:4602" ph="insert into zhihuMessage... " />
+                <marker date="1526604335774" expanded="true" signature="4482:4605" ph="insert into zhihuMessage... " />
+                <marker date="1526604335774" expanded="true" signature="4482:4762" ph="insert into zhihuMessage... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +125,9 @@
       <find>None</find>
       <find>pro</find>
       <find>item</find>
+      <find>myuan</find>
+      <find>totalID</find>
+      <find>http</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/R12306/parse.py" />
         <option value="$PROJECT_DIR$/R12306/main.py" />
         <option value="$PROJECT_DIR$/testIP.py" />
         <option value="$PROJECT_DIR$/requestsIP.py" />
@@ -158,20 +172,21 @@
         <option value="$PROJECT_DIR$/TEST/HtmlDownloader.py" />
         <option value="$PROJECT_DIR$/TEST/HtmlParser.py" />
         <option value="$PROJECT_DIR$/F_zhihu/test.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/Parser.py" />
         <option value="$PROJECT_DIR$/F_zhihu/totalID" />
         <option value="$PROJECT_DIR$/A_sinaNews/requestsSinaNews.py" />
         <option value="$PROJECT_DIR$/TEST/requestsSinaNews.py" />
         <option value="$PROJECT_DIR$/TEST/TEST.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/Setting.py" />
         <option value="$PROJECT_DIR$/getProxy.py" />
         <option value="$PROJECT_DIR$/Z_getProxy/setting.py" />
         <option value="$PROJECT_DIR$/Z_getProxy/main.py" />
         <option value="$PROJECT_DIR$/Z_getProxy/getProxy.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/logging.log" />
+        <option value="$PROJECT_DIR$/F_zhihu/Parser.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/Https.py" />
         <option value="$PROJECT_DIR$/F_zhihu/testZhihu.py" />
         <option value="$PROJECT_DIR$/F_zhihu/Main.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/Https.py" />
-        <option value="$PROJECT_DIR$/F_zhihu/logging.log" />
+        <option value="$PROJECT_DIR$/F_zhihu/Setting.py" />
+        <option value="$PROJECT_DIR$/F_zhihu/Spider.py" />
       </list>
     </option>
   </component>
@@ -181,11 +196,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="706" />
+    <option name="y" value="24" />
+    <option name="width" value="660" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -293,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.testZhihu">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,8 +434,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getProxy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testZhihu" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testZhihu" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getProxy" />
         <item index="3" class="java.lang.String" itemvalue="Python.requestsSinaNews" />
         <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
       </list>
@@ -443,16 +458,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1321" height="780" extended-state="6" />
+    <frame x="706" y="24" width="660" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20627803" sideWeight="0.5056861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.406577" sideWeight="0.49431387" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.264574" sideWeight="0.49431387" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19560273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297953" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -476,7 +491,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -495,8 +510,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lagouwang/parse.py" />
-    <entry file="file://$PROJECT_DIR$/R12306/main.py" />
     <entry file="file://$PROJECT_DIR$/R12306/parse.py" />
     <entry file="file://$PROJECT_DIR$/R12306/setting.py" />
     <entry file="file://$PROJECT_DIR$/doubanTop/main.py" />
@@ -573,13 +586,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/TEST.py" />
     <entry file="file://$PROJECT_DIR$/F_zhihu/Setting" />
-    <entry file="file://$PROJECT_DIR$/E_zhihu/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/bs4/__init__.py" />
     <entry file="file://$PROJECT_DIR$/A_sinaNews/requestsSinaNews.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,25 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/totalID">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../anaconda3/lib/python3.6/multiprocessing/queues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/Parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,57 +630,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E_zhihu/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/Setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E_zhihu/main!.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/testZhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <marker date="1526456955862" expanded="true" signature="194:215" ph="select * fro... TEACHER" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Z_getProxy/setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="61" column="84" lean-forward="false" selection-start-line="61" selection-start-column="84" selection-end-line="61" selection-end-column="84" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Z_getProxy/getProxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,29 +654,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/Main.py">
+    <entry file="file://$PROJECT_DIR$/F_zhihu/totalID">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
+    <entry file="file://$PROJECT_DIR$/E_zhihu/main!.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="144">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F_zhihu/logging.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="199" column="51" lean-forward="false" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+        <state relative-caret-position="328">
+          <caret line="844" column="128" lean-forward="false" selection-start-line="844" selection-start-column="116" selection-end-line="844" selection-end-column="128" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_zhihu/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/multiprocessing/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Z_getProxy/getProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/testZhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1526623977010" expanded="true" signature="194:215" ph="select * fro... TEACHER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Https.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1526604335774" expanded="true" signature="4176:4299" ph="insert into zhihuMessage... " />
+            <marker date="1526604335774" expanded="true" signature="4482:4522" ph="insert into zhihuMessage... " />
+            <marker date="1526604335774" expanded="true" signature="4482:4602" ph="insert into zhihuMessage... " />
+            <marker date="1526604335774" expanded="true" signature="4482:4605" ph="insert into zhihuMessage... " />
+            <marker date="1526604335774" expanded="true" signature="4482:4762" ph="insert into zhihuMessage... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="37" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F_zhihu/Spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="66" column="30" lean-forward="true" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

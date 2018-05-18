@@ -4,25 +4,22 @@ from F_zhihu import Setting
 from multiprocessing import Pool
 import random,time,redis
 from Z_getProxy import getProxy
-
-
-def Spider(initID):
-    r.sadd('newID',initID)
-
-    #建立进程池
+def Main():
     p=Pool(15)
     for i in range(15):
+        print('sleeping')
         time.sleep(i)
-        p.apply_async(allFollowID,args=(i,))#爬取所有关注者及子孙关注者ID
+        print('sleeped')
+        p.apply_async(Spider,args=(i,))
     p.close()
     p.join()
 
-    #解析已爬token信息
-    for i in range(15):
-        time.sleep(i)
-        p.apply_async(parseMessage,args=(i,))
-    p.close()
-    p.join()
+
+def Spider(processID):
+    allFollowID(processID)
+    time.sleep(20)
+    parseMessage(processID)
+
 
 def allFollowID(processID):
     '''
@@ -30,7 +27,9 @@ def allFollowID(processID):
     :param processID: 进程编号,justForTest
     :return: None
     '''
+    print(1)
     while True:
+        print('googingggg')
         #检测代理的剩余量,补充及大休眠
         if r.scard('proxy') < 10:
             if processID==0:
@@ -51,13 +50,13 @@ def allFollowID(processID):
         if r.sismember('oldID',A):
             continue
         n=0#页码
-
+        print(A)
+        htmlCode=httpClass.get(Setting.followUrl.format(id=A,page=n),
+                      headers={'User-Agent':random.choice(Setting.UA),'Cookie':random.choice(Setting.Cookies)},
+                      proxies={'proxy':proxy})
+        print(htmlCode)
         while True:
-            followUrl=Setting.followUrl.format(id=A,page=n)
-            htmlCode=httpClass.get(followUrl,
-                                   headers={'User-Agent':random.choice(Setting.UA),'Cookie':random.choice(Setting.Cookies)},
-                                   proxies={'proxy':proxy}
-                                   )
+
 
             #访问失败跳过该token
             if htmlCode==None:
@@ -67,6 +66,10 @@ def allFollowID(processID):
 
 
             parseClass = Json(htmlCode)
+            if parseClass.isZeroFollow()==True:
+                r.sadd('oldID',A)
+                break
+
             if parseClass.isEnd() == True:
                 #末页,最终解析
                 followList=parseClass.parseFollow()
@@ -92,15 +95,45 @@ def parseMessage(processID):
     :param processID: 进程编号,justForTest
     :return: None
     '''
+    while True:
+        #检测代理的剩余量,补充及大休眠
+        if r.scard('proxy') < 10:
+            if processID==0:
+                getProxy.getProxy()
+            time.sleep(100)
+
+        #检测爬虫是否完成
+        if r.scard('oldID')==0:
+            time.sleep(20)
+            if r.scard('oldID')==0:
+                print('(%s)号信息结束'%processID)
+                break
+            else:
+                continue
+
+        #随机获取并解析
+        parseToken=r.spop('oldID')
+        messageUrl='https://www.zhihu.com/api/v4/members/{token}?include=name,url_token,educations,business,locations,employments,gender,following_count,follower_count,voteup_count,thanked_count,favorited_count,answer_count,articles_count,question_count.topics'
+        proxy=r.srandmember('proxy')
+        htmlCode=httpClass.get(messageUrl.format(token=parseToken),
+                      headers={'User-Agent':random.choice(Setting.UA),'Cookie':random.choice(Setting.Cookies)},
+                      proxies={'proxy':proxy})
+        #访问失败跳过,过会重来
+        if htmlCode == None:
+            r.srem('proxy',proxy)
+            r.sadd('oldID',parseToken)
+            continue
+
+        #存储2MySQL DB:zhihuSpider
+        parseClass=Json(htmlCode)
+        parseClass.parseMessage()
 
 if __name__=='__main__':
-    initID='f3lix'
-
     #建立redis池连接
     pool=redis.ConnectionPool(host='localhost',port=6379,decode_responses=True)
     r=redis.Redis(connection_pool=pool)
 
     httpClass = Http()
     startTime=time.time()
-    if Spider(initID):
+    if Main():
         print('ojerk')

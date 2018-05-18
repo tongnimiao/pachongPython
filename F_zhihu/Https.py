@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.ERROR,
                     filemode='a')
 
 class Http(object):
-    def get(self,url,headers=None,proxies=None,timeout=5,timeoutRetry=5):
+    def get(self,url,headers=None,proxies=None,timeout=10,timeoutRetry=5):
         '''
         get方法
         :param url:目标url
@@ -35,7 +35,7 @@ class Http(object):
         except Exception as e:
             logging.error('getExcept:{}'.format(e))
             if timeoutRetry>0:
-                htmlCode=self.get(url=url,timeout=5,timeoutRetry=timeoutRetry-1)
+                htmlCode=self.get(url=url,timeoutRetry=timeoutRetry-1)
             else:
                 logging.error('getTimeout:{}'.format(url))
                 htmlCode=None
