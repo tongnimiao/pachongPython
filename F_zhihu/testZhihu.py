@@ -22,7 +22,8 @@ if __name__=='__main__':
     print(r.scard('newID'))
     print(r.scard('oldID'))
     print(r.scard('proxy'))
-
+    r.delete('oldID')
+    print(r.scard('oldID'))
     # r.sunionstore('newID','oldID','newID')
     # r.delete('oldID')
 #     # A=r.srandmember('proxy')

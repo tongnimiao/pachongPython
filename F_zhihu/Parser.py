@@ -13,8 +13,7 @@ class Json(object):
         '''
         if self.json['paging']['is_end'] == True:
             return True
-        elif self.json['paging']['is_end']==False:
-            return False
+        return False
 
     def isZeroFollow(self):
         '''
@@ -33,6 +32,10 @@ class Json(object):
         '''
         pageToken=[i['url_token'] for i in self.json['data']]
         return pageToken
+
+    def parseAllFollow(self):
+        if self.isZeroFollow()==True:
+
 
     def parseMessage(self):
         '''
